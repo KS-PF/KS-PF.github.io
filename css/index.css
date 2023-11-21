@@ -1,0 +1,410 @@
+header {
+
+    background-color: white;
+    color: rgb(185, 170, 86);
+    height: 24px;
+    width: auto;
+    border-bottom: 2px double rgb(185, 170, 86);
+    text-align: center;
+
+    overflow: hidden;
+}
+
+#icon {
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 2px solid rgb(185, 170, 86);
+}
+
+#pankuzu {
+ /* display: flex; */
+    font-size: 16px;
+    margin-left: 20px;
+    width: auto;
+    height: 25px;
+   
+   overflow:scroll;
+}
+
+#taitoru {
+    font-size: 20px;
+    padding: 0;
+    height: 20px;
+    margin: 0;
+    width: 100%;
+
+}
+
+nav {
+    background-color: #b9a256;
+    color: white;
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+
+    width: auto;
+    overflow-wrap: break-word;
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px 6% 16px 6%;
+
+    width: auto;
+    margin: 0;
+
+
+    overflow: scroll;
+    /* overflow: scroll; */
+}
+
+.main-content {
+    height: fit-content;
+    flex: 1;
+    /* メインコンテンツのスタイルを追加 */
+    background-color: white;
+    /* margin: 上 右 下 左の順番で記述 */
+    margin: 8px 4px 16px 4px;
+    padding: 8px 2% 40px 2%;
+    border-radius: 2px;
+    width: auto;
+
+
+   
+}
+
+.main-content2 {
+    height: fit-content;
+
+    /* メインコンテンツのスタイルを追加 */
+    background-color: white;
+    /* margin: 上 右 下 左の順番で記述 */
+    margin: 8px 4px 16px 4px;
+    border-radius: 2px;
+    padding: 4px 4px 4px 4px;
+    width: auto;
+    border-bottom: 4px double #b9b156;
+
+
+    overflow: scroll;
+
+}
+
+.syokai {
+    height: fit-content;
+    /* メインコンテンツのスタイルを追加 */
+    background-color: white;
+    /* margin: 上 右 下 左の順番で記述 */
+    margin: 8px 4px 8px 4px;
+    width: auto;
+    border-radius: 2px;
+    padding: 0 0 16px 0;
+    border: 2px solid #b9b156;
+    overflow: hidden;
+
+
+}
+
+#syokai2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #b99056;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1em;
+    width: 100;
+
+}
+
+a {
+    text-decoration: none;
+    color: #b99a56;
+}
+
+#twitter {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px;
+    background-color: #0073cb;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.sidebar {
+
+    flex: 0 0 300px;
+    background-color: transparent;
+    padding: 0 0 16px 2%;
+    width: fit-content;
+
+
+    /* サイドバーのスタイルを追加 */
+}
+
+/* 画面幅が狭い場合のスタイル */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin: 0;
+        padding: 8px 2% 40px 2%;
+
+        width: auto;
+    }
+
+}
+
+
+footer {
+
+    margin-top: 20px;
+    background-color: #b99e56;
+    color: white;
+    height: fit-content;
+    padding: 8px 4% 20px 4%;
+    text-align: center;
+    width: auto;
+    overflow-wrap: break-word;
+
+
+
+}
+
+footer div {
+    color: white;
+    overflow-wrap: break-word;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d7d9e8;
+    width: auto;
+
+}
+
+h1 {
+    padding: 2px;
+    /*文字の上下 左右の余白*/
+    color: #494949;
+    /*文字色*/
+    background: #f4f4f4;
+    /*背景色*/
+    border-left: solid 5px #b99356;
+    /*左線*/
+    border-bottom: solid 3px #A3A3A3;
+    margin: 20px 2% 20px 2%;
+    border-radius: 2px;
+    width: auto;
+
+    font-size: 25px;
+    overflow-wrap: break-word;
+}
+
+h2 {
+    padding: 2px;
+    color: #b99056;
+    /*文字色*/
+    /*線の種類（点線）2px 線色*/
+    border-bottom: solid 3px #A3A3A3;
+    border-left: solid 5px #b99356;
+    margin: 20px 4% 20px 4%;
+    border-radius: 2px;
+    overflow-wrap: break-word;
+    font-size: 22px;
+
+}
+
+h3 {
+    display: flex;
+    color: #333;
+    margin: 10px 5% 10px 5%;
+    padding: 2px;
+    border-bottom: solid 2px #b99656;
+
+    overflow-wrap: break-word;
+}
+
+h3 div {
+    color: #b99d56;
+    margin-right: 10px;
+}
+
+
+.kanketu {
+    width: auto;
+    margin: 20px 2% 20px 2%;
+    padding: .5em 1.5em 1em;
+    border-left: 5px solid #b98956;
+    border-radius: 2px;
+    background-color: #f4f4f4;
+}
+
+.kanketu>div {
+    margin-bottom: .5em;
+    color: #b99e56;
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.kanketu>p {
+    margin: 0;
+    color: #333;
+}
+
+.buttonsiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    margin: 8px auto 8px auto;
+    padding: .9em 2em;
+    border: 1px solid #b99b56;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #b99b56;
+    font-size: 1em;
+}
+
+
+.buttonao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    margin: 8px auto 8px auto;
+    padding: .9em 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #b99b56;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+
+.osusume {
+    position: relative;
+    margin: 20px 2% 20px 2%;
+    padding: 1em 1.5em;
+    border: 2px solid #b99b56;
+    border-radius: 2px;
+}
+
+.osusume div {
+    position: absolute;
+    top: -1.6em;
+    left: -2px;
+    padding: .2em .8em;
+    margin-top: 10px;
+    border-radius: 2px 2px 0 0;
+    background-color: #b99b56;
+    color: #fff;
+}
+
+.osusume p {
+    margin: 0;
+    color: #333;
+}
+
+#bunsyo {
+
+    padding: 8px 3% 8px 3%;
+    color: #333;
+    width: auto;
+    overflow:scroll;
+}
+#bunsyo b{
+
+    overflow:scroll;
+}
+
+
+
+
+.mokuzi {
+    /* margin: 上 右 下 左の順番で記述 */
+    margin: 20px 2% 40px 2%;
+    border: 2px solid #b99a56;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    overflow:scroll;
+}
+
+.mokuzi div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #a8b956;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.mokuzi ol {
+    list-style-type: disc;
+    margin: 0;
+  
+}
+
+.mokuzi>ol {
+    padding: 1em 1em 1em 3em;
+}
+
+.mokuzi ol ol {
+    margin-top: 5px;
+    padding-left: 1.1em;
+}
+
+.mokuzi li {
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.mokuzi ol ol li {
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.mokuzi a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+#card {
+    display: flex;
+    background-color: #f7f7f7;
+    overflow: scroll;
+    /* box-shadow: 0 4px 15px rgba(0,0,0,.2); */
+    /* border: 1px solid grey; */
+    height: 100px;
+    width: auto;
+    padding: 4px;
+    margin: 20px 4px 10px 4px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+#gazo {
+    border-top: 8px solid #b9a356;
+    border-bottom: 8px solid #b9ac56;
+    height: 150px;
+    width: auto;
+
+}
