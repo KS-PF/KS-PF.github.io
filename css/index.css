@@ -1,12 +1,10 @@
 header {
-
     background-color: white;
     color: rgb(185, 170, 86);
     height: 24px;
     width: auto;
     border-bottom: 2px double rgb(185, 170, 86);
     text-align: center;
-
     overflow: hidden;
 }
 
@@ -18,13 +16,12 @@ header {
 }
 
 #pankuzu {
- /* display: flex; */
+    /* display: flex; */
     font-size: 16px;
     margin-left: 20px;
     width: auto;
     height: 25px;
-   
-   overflow:scroll;
+    overflow: scroll;
 }
 
 #taitoru {
@@ -33,7 +30,6 @@ header {
     height: 20px;
     margin: 0;
     width: 100%;
-
 }
 
 nav {
@@ -47,12 +43,8 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-
-
     width: auto;
     overflow-wrap: break-word;
-
-
 }
 
 .container {
@@ -60,11 +52,8 @@ nav {
     flex-wrap: wrap;
     height: auto;
     padding: 8px 6% 16px 6%;
-
     width: auto;
     margin: 0;
-
-
     overflow: scroll;
     /* overflow: scroll; */
 }
@@ -79,14 +68,10 @@ nav {
     padding: 8px 2% 40px 2%;
     border-radius: 2px;
     width: auto;
-
-
-   
 }
 
 .main-content2 {
     height: fit-content;
-
     /* メインコンテンツのスタイルを追加 */
     background-color: white;
     /* margin: 上 右 下 左の順番で記述 */
@@ -95,10 +80,7 @@ nav {
     padding: 4px 4px 4px 4px;
     width: auto;
     border-bottom: 4px double #b9b156;
-
-
     overflow: scroll;
-
 }
 
 .syokai {
@@ -112,8 +94,6 @@ nav {
     padding: 0 0 16px 0;
     border: 2px solid #b9b156;
     overflow: hidden;
-
-
 }
 
 #syokai2 {
@@ -127,7 +107,6 @@ nav {
     font-weight: 600;
     font-size: 1.1em;
     width: 100;
-
 }
 
 a {
@@ -146,13 +125,10 @@ a {
 }
 
 .sidebar {
-
     flex: 0 0 300px;
     background-color: transparent;
     padding: 0 0 16px 2%;
     width: fit-content;
-
-
     /* サイドバーのスタイルを追加 */
 }
 
@@ -162,15 +138,11 @@ a {
         flex-direction: column;
         margin: 0;
         padding: 8px 2% 40px 2%;
-
         width: auto;
     }
-
 }
 
-
 footer {
-
     margin-top: 20px;
     background-color: #b99e56;
     color: white;
@@ -179,9 +151,6 @@ footer {
     text-align: center;
     width: auto;
     overflow-wrap: break-word;
-
-
-
 }
 
 footer div {
@@ -194,7 +163,6 @@ body {
     margin: 0;
     background-color: #e8e2d7;
     width: auto;
-
 }
 
 h1 {
@@ -210,7 +178,6 @@ h1 {
     margin: 20px 2% 20px 2%;
     border-radius: 2px;
     width: auto;
-
     font-size: 25px;
     overflow-wrap: break-word;
 }
@@ -226,7 +193,6 @@ h2 {
     border-radius: 2px;
     overflow-wrap: break-word;
     font-size: 22px;
-
 }
 
 h3 {
@@ -235,7 +201,6 @@ h3 {
     margin: 10px 5% 10px 5%;
     padding: 2px;
     border-bottom: solid 2px #b99656;
-
     overflow-wrap: break-word;
 }
 
@@ -243,7 +208,6 @@ h3 div {
     color: #b99d56;
     margin-right: 10px;
 }
-
 
 .kanketu {
     width: auto;
@@ -280,7 +244,6 @@ h3 div {
     font-size: 1em;
 }
 
-
 .buttonao {
     display: flex;
     justify-content: center;
@@ -295,7 +258,6 @@ h3 div {
     font-weight: 600;
     font-size: 1em;
 }
-
 
 .osusume {
     position: relative;
@@ -322,27 +284,23 @@ h3 div {
 }
 
 #bunsyo {
-
-    padding: 8px 3% 8px 3%;
+    padding: 8px 6% 8px 6%;
     color: #333;
     width: auto;
-    overflow:scroll;
-}
-#bunsyo b{
-
-    overflow:scroll;
+    overflow: scroll;
 }
 
-
-
+#bunsyo b {
+    overflow: scroll;
+}
 
 .mokuzi {
     /* margin: 上 右 下 左の順番で記述 */
-    margin: 20px 2% 40px 2%;
+    margin: 20px 6% 40px 6%;
     border: 2px solid #b99a56;
     border-radius: 2px;
     background-color: #f2f2f2;
-    overflow:scroll;
+    overflow: scroll;
 }
 
 .mokuzi div {
@@ -360,7 +318,6 @@ h3 div {
 .mokuzi ol {
     list-style-type: disc;
     margin: 0;
-  
 }
 
 .mokuzi>ol {
@@ -386,7 +343,6 @@ h3 div {
     color: #333;
     text-decoration: none;
 }
-
 
 #card {
     display: flex;
